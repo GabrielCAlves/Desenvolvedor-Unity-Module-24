@@ -51,6 +51,7 @@ public class PlayerController : Singleton<PlayerController>
     //private float _basespeedToAnimation = 7;
     private void Awake()
     {
+        Instance = this;
         transform.localScale = Vector3.zero;
     }
 
